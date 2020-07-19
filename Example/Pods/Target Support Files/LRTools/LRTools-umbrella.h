@@ -11,6 +11,7 @@
 #endif
 
 #import "LRToos.h"
+#import "NSString+Addtionss.h"
 #import "UIViewController+AlertPresented.h"
 
 FOUNDATION_EXPORT double LRToolsVersionNumber;

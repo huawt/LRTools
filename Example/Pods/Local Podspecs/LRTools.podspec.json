@@ -1,6 +1,6 @@
 {
   "name": "LRTools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "A short description of LRTools.",
   "homepage": "https://github.com/huawt/LRTools",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/huawt/LRTools.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,6 +23,7 @@
     "Foundation",
     "AVFoundation",
     "CoreImage",
-    "CoreGraphics"
+    "CoreGraphics",
+    "CommonCrypto"
   ]
 }
