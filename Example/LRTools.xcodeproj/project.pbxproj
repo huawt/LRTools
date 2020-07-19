@@ -63,9 +63,9 @@
 		7D2D34B4CEFA1847A0BF1230 /* Pods-LRTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-LRTools_Tests/Pods-LRTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95B4904D255A08E71C19BC88 /* Pods-LRTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LRTools_Tests/Pods-LRTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B41116F1D379521FFD2BC68E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BA0A922F950692612821B453 /* LRTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LRTools.podspec; path = ../LRTools.podspec; sourceTree = "<group>"; };
-		BD7A810D1CFFE115127A48CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B41116F1D379521FFD2BC68E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BA0A922F950692612821B453 /* LRTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LRTools.podspec; path = ../LRTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD7A810D1CFFE115127A48CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BDE9EEA2463124C9654C2BC9 /* Pods_LRTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				95B4904D255A08E71C19BC88 /* Pods-LRTools_Tests.debug.xcconfig */,
 				7D2D34B4CEFA1847A0BF1230 /* Pods-LRTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

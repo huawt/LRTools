@@ -1,0 +1,6 @@
+framework module Pods_LRTools_Example {
+  umbrella header "Pods-LRTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

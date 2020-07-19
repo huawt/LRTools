@@ -1,0 +1,16 @@
+PODS:
+  - LRTools (1.0.0)
+
+DEPENDENCIES:
+  - LRTools (from `../`)
+
+EXTERNAL SOURCES:
+  LRTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRTools: 588d25ba71e9655505353484ae541aa95e5a4233
+
+PODFILE CHECKSUM: 5d8a5421beac48862ca9d9038f1efe0bab568cab
+
+COCOAPODS: 1.9.3
