@@ -7,6 +7,7 @@
 //
 
 #import "LLLViewController.h"
+#import <LRTools/LRToos.h>
 
 @interface LLLViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"back_slices" ofType:@"zip"];
+    
+    NSString *md5string = [NSString getFileMD5WithPath:path];
+    
+    NSLog(@"md5 : %@", md5string);
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
