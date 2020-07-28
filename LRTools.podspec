@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LRTools'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of LRTools.'
   s.homepage         = 'https://github.com/huawt/LRTools'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
