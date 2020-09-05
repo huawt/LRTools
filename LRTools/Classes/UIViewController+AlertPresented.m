@@ -64,6 +64,11 @@
     if ([[[UIApplication sharedApplication] keyWindow] isKindOfClass:[UIAlertController class]]) {
         return;
     }
+    
+    if ([self isKindOfClass:[UIAlertController class]]) {
+        return;
+    }
+    
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         [self presentViewController:viewController animated:YES completion:nil];
         return;
