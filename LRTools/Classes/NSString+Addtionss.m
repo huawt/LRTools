@@ -114,10 +114,10 @@
 
 
 + (NSString*)getFileMD5WithPath:(NSString*)path{
-    return (__bridge_transfer NSString *)FileMD5HashCreateWithPath((__bridge CFStringRef)path, FileHashDefaultChunkSizeForReadingData);
+    return (__bridge_transfer NSString *)FileMD5HashCreateWithFilePath((__bridge CFStringRef)path, FileHashDefaultChunkSizeForReadingData);
 }
 
-CFStringRef FileMD5HashCreateWithPath(CFStringRef filePath,size_t chunkSizeForReadingData){
+CFStringRef FileMD5HashCreateWithFilePath(CFStringRef filePath,size_t chunkSizeForReadingData){
     // Declare needed variables
     CFStringRef result = NULL;
     CFReadStreamRef readStream = NULL;
