@@ -13,6 +13,7 @@
 #import "LRTools.h"
 #import "NSString+Addtionss.h"
 #import "UIButton+Vertical.h"
+#import "UIImage+Compress.h"
 #import "UIViewController+AlertPresented.h"
 #import "UIViewController+DismissKeyboard.h"
 

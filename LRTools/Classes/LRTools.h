@@ -12,6 +12,7 @@ FOUNDATION_EXPORT const unsigned char LRToolsVersionString[];
 #import <LRTools/NSString+Addtionss.h>
 #import <LRTools/UIViewController+DismissKeyboard.h>
 #import <LRTools/UIButton+Vertical.h>
+#import <LRTools/UIImage+Compress.h>
 
 #else
 
@@ -19,6 +20,7 @@ FOUNDATION_EXPORT const unsigned char LRToolsVersionString[];
 #import "NSString+Addtionss.h"
 #import "UIViewController+DismissKeyboard.h"
 #import "UIButton+Vertical.h"
+#import "UIImage+Compress.h"
 
 #endif
 

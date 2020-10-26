@@ -1,5 +1,5 @@
 PODS:
-  - LRTools (1.0.8)
+  - LRTools (1.0.9)
 
 DEPENDENCIES:
   - LRTools (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRTools: 5579e7570db912284521c5535c2819de8aaa2949
+  LRTools: 9ea2984dbb781bb3c648fdec4bfb48b41f650fd3
 
 PODFILE CHECKSUM: 5d8a5421beac48862ca9d9038f1efe0bab568cab
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
